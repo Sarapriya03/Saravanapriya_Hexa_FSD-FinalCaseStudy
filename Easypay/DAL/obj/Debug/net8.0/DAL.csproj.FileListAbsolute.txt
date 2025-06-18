@@ -1,0 +1,15 @@
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\bin\Debug\net8.0\DAL.deps.json
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\bin\Debug\net8.0\DAL.dll
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\bin\Debug\net8.0\DAL.pdb
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\DAL.dll
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\refint\DAL.dll
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\DAL.pdb
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\ref\DAL.dll
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache

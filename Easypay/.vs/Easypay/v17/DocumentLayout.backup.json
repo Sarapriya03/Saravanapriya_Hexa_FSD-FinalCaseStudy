@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AB09DDD-5F95-45C0-8C6B-1B30434011E2}|DAL\\DAL.csproj|e:\\hexaware\\.net_angular fsd\\saravanapriya_hexa_fsd-finalcasestudy\\easypay\\dal\\models\\easypaycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AB09DDD-5F95-45C0-8C6B-1B30434011E2}|DAL\\DAL.csproj|solutionrelative:dal\\models\\easypaycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AB09DDD-5F95-45C0-8C6B-1B30434011E2}|DAL\\DAL.csproj|e:\\hexaware\\.net_angular fsd\\saravanapriya_hexa_fsd-finalcasestudy\\easypay\\dal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AB09DDD-5F95-45C0-8C6B-1B30434011E2}|DAL\\DAL.csproj|solutionrelative:dal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EasypayContext.cs",
+              "DocumentMoniker": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\DAL\\Models\\EasypayContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\EasypayContext.cs",
+              "ToolTip": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\DAL\\Models\\EasypayContext.cs",
+              "RelativeToolTip": "DAL\\Models\\EasypayContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T15:22:49.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\DAL\\Program.cs",
+              "RelativeDocumentMoniker": "DAL\\Program.cs",
+              "ToolTip": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\DAL\\Program.cs",
+              "RelativeToolTip": "DAL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:37:33.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
