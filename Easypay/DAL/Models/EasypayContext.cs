@@ -31,12 +31,6 @@ public class EasypayContext : DbContext
             .HasIndex(e => e.Email)
             .IsUnique();
 
-        modelBuilder.Entity<LeaveRequest>()
-            .HasOne(l => l.Employee)
-            .WithMany(e => e.LeaveRequests)
-            .HasForeignKey(l => l.EmployeeId)
-            .OnDelete(DeleteBehavior.Cascade);
-
         modelBuilder.Entity<Payroll>()
         .Property(p => p.Salary)
         .HasPrecision(18, 2);

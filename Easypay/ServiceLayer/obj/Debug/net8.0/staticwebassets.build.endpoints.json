@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "reports/compliance/LeavePolicyAudit_Q2_2025.csv",
+      "AssetFile": "reports/compliance/LeavePolicyAudit_Q2_2025.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 05:29:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY="
+        }
+      ]
+    },
+    {
+      "Route": "reports/compliance/LeavePolicyAudit_Q2_2025.eoqyesqebk.csv",
+      "AssetFile": "reports/compliance/LeavePolicyAudit_Q2_2025.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 05:29:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eoqyesqebk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY="
+        },
+        {
+          "Name": "label",
+          "Value": "reports/compliance/LeavePolicyAudit_Q2_2025.csv"
+        }
+      ]
+    },
+    {
+      "Route": "reports/compliance/SalaryComplianceReport_June2025.noo9odv21d.pdf",
+      "AssetFile": "reports/compliance/SalaryComplianceReport_June2025.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 05:29:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "noo9odv21d"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8="
+        },
+        {
+          "Name": "label",
+          "Value": "reports/compliance/SalaryComplianceReport_June2025.pdf"
+        }
+      ]
+    },
+    {
+      "Route": "reports/compliance/SalaryComplianceReport_June2025.pdf",
+      "AssetFile": "reports/compliance/SalaryComplianceReport_June2025.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 05:29:02 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/ServiceLayer/reports/compliance/LeavePolicyAudit_Q2_2025.csv">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports\compliance\LeavePolicyAudit_Q2_2025.csv'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"168"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Jun 2025 05:29:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ServiceLayer/reports/compliance/LeavePolicyAudit_Q2_2025.eoqyesqebk.csv">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports\compliance\LeavePolicyAudit_Q2_2025.csv'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eoqyesqebk"},{"Name":"integrity","Value":"sha256-jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY="},{"Name":"label","Value":"_content/ServiceLayer/reports/compliance/LeavePolicyAudit_Q2_2025.csv"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"168"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Jun 2025 05:29:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ServiceLayer/reports/compliance/SalaryComplianceReport_June2025.noo9odv21d.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports\compliance\SalaryComplianceReport_June2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"noo9odv21d"},{"Name":"integrity","Value":"sha256-yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8="},{"Name":"label","Value":"_content/ServiceLayer/reports/compliance/SalaryComplianceReport_June2025.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1498"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Jun 2025 05:29:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ServiceLayer/reports/compliance/SalaryComplianceReport_June2025.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\reports\compliance\SalaryComplianceReport_June2025.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1498"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Jun 2025 05:29:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

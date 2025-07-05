@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "t7YE2WArUa8iUIBGfC2ldTwwfyoSEMYzd1cxEE4G+mg=",
+  "Source": "ServiceLayer",
+  "BasePath": "_content/ServiceLayer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ServiceLayer\\wwwroot",
+      "Source": "ServiceLayer",
+      "ContentRoot": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\",
+      "BasePath": "_content/ServiceLayer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\reports\\compliance\\LeavePolicyAudit_Q2_2025.csv",
+      "SourceId": "ServiceLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\",
+      "BasePath": "_content/ServiceLayer",
+      "RelativePath": "reports/compliance/LeavePolicyAudit_Q2_2025#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eoqyesqebk",
+      "Integrity": "jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\compliance\\LeavePolicyAudit_Q2_2025.csv"
+    },
+    {
+      "Identity": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\reports\\compliance\\SalaryComplianceReport_June2025.pdf",
+      "SourceId": "ServiceLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\",
+      "BasePath": "_content/ServiceLayer",
+      "RelativePath": "reports/compliance/SalaryComplianceReport_June2025#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "noo9odv21d",
+      "Integrity": "yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\compliance\\SalaryComplianceReport_June2025.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "reports/compliance/LeavePolicyAudit_Q2_2025.csv",
+      "AssetFile": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\reports\\compliance\\LeavePolicyAudit_Q2_2025.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 05:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY="
+        }
+      ]
+    },
+    {
+      "Route": "reports/compliance/LeavePolicyAudit_Q2_2025.eoqyesqebk.csv",
+      "AssetFile": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\reports\\compliance\\LeavePolicyAudit_Q2_2025.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 05:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eoqyesqebk"
+        },
+        {
+          "Name": "label",
+          "Value": "reports/compliance/LeavePolicyAudit_Q2_2025.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jpkDRT3S4gZc4JRDBDQV2qLKSxs594ne/8rSJ3OmCVY="
+        }
+      ]
+    },
+    {
+      "Route": "reports/compliance/SalaryComplianceReport_June2025.noo9odv21d.pdf",
+      "AssetFile": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\reports\\compliance\\SalaryComplianceReport_June2025.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 05:29:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "noo9odv21d"
+        },
+        {
+          "Name": "label",
+          "Value": "reports/compliance/SalaryComplianceReport_June2025.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8="
+        }
+      ]
+    },
+    {
+      "Route": "reports/compliance/SalaryComplianceReport_June2025.pdf",
+      "AssetFile": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\reports\\compliance\\SalaryComplianceReport_June2025.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 05:29:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yT6jsWEpdRuqr4uYcFtrZAS2anh8vR8mAFHQQyoI1W8="
+        }
+      ]
+    }
+  ]
+}

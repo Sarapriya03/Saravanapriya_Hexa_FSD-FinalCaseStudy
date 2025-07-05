@@ -15,8 +15,6 @@ namespace DAL.Models
         [Required]
         public int EmployeeId { get; set; }
 
-        [ForeignKey("EmployeeId")]
-        public virtual Employee Employee { get; set; }
 
         public DateTime StartDate { get; set; }
 

@@ -18,7 +18,5 @@ namespace DAL.Models
         [Required]
         public double HoursWorked { get; set; }
 
-        [ForeignKey("EmployeeId")]
-        public virtual Employee Employee { get; set; }
     }
 }

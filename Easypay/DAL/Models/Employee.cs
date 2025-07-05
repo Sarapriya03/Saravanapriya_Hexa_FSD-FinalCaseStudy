@@ -22,7 +22,7 @@ namespace DAL.Models
         [StringLength(50)]
         public string Role { get; set; }
 
-        public virtual ICollection<LeaveRequest> LeaveRequests { get; set; }
-        public virtual ICollection<Payroll> Payrolls { get; set; }
+        
+
     }
 }

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ServiceLayer\\ServiceLayer.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "AppUI\\AppUI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -16,8 +16,6 @@ namespace DAL.Models
 
         [Column(TypeName = "decimal(18,2)")]
 
-        [ForeignKey("EmployeeId")]
-        public virtual Employee Employee { get; set; }
         public decimal Salary { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]

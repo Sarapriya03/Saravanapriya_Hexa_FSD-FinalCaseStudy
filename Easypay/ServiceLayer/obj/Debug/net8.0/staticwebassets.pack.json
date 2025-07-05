@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\reports\\compliance\\LeavePolicyAudit_Q2_2025.csv",
+      "PackagePath": "staticwebassets\\reports\\compliance\\LeavePolicyAudit_Q2_2025.csv"
+    },
+    {
+      "Id": "E:\\Hexaware\\.NET_ANGULAR FSD\\Saravanapriya_Hexa_FSD-FinalCaseStudy\\Easypay\\ServiceLayer\\wwwroot\\reports\\compliance\\SalaryComplianceReport_June2025.pdf",
+      "PackagePath": "staticwebassets\\reports\\compliance\\SalaryComplianceReport_June2025.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ServiceLayer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ServiceLayer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ServiceLayer.props",
+      "PackagePath": "build\\ServiceLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ServiceLayer.props",
+      "PackagePath": "buildMultiTargeting\\ServiceLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ServiceLayer.props",
+      "PackagePath": "buildTransitive\\ServiceLayer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

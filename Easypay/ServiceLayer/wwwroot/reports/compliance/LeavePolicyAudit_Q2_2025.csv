@@ -1,0 +1,4 @@
+EmployeeID,Name,LeavesApplied,LeavesApproved,PolicyCompliant,Comments
+101,Amit Kumar,6,6,Yes,
+102,Neha Sharma,4,3,No,Exceeds casual leave limit
+103,Ravi Verma,5,5,Yes,

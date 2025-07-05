@@ -36,5 +36,13 @@ namespace DAL.DataAccess
                 return dbContext.PayrollConfigs.FirstOrDefault(p => p.EmployeeId == employeeId);
             }
         }
+
+        public List<PayrollConfig> GetAll()
+        {
+            using (var dbContext = new EasypayContext())
+            {
+                return dbContext.PayrollConfigs.ToList();
+            }
+        }
     }
 }

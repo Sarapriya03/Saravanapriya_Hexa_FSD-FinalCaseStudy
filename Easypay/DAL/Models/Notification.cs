@@ -19,8 +19,5 @@ namespace DAL.Models
         public DateTime SentDate { get; set; }
 
         public bool IsRead { get; set; }
-
-        [ForeignKey("EmployeeId")]
-        public virtual Employee Employee { get; set; }
     }
 }
