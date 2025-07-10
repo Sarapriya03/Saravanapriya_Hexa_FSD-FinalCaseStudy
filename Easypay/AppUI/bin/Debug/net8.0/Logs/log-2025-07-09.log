@@ -1,0 +1,33 @@
+2025-07-09 18:55:13,923 [9] INFO  AppUI.Controllers.AdminController - AdminController.Dashboard accessed.
+2025-07-09 18:55:14,307 [9] ERROR AppUI.Controllers.AdminController - Error in AdminController.Dashboard
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Dashboard() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 34
+2025-07-09 18:55:24,414 [5] INFO  AppUI.Controllers.AdminController - Accessed AdminController.Users
+2025-07-09 18:55:24,507 [5] ERROR AppUI.Controllers.AdminController - Error while fetching users
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Users() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 59
+2025-07-09 19:08:02,298 [7] INFO  AppUI.Controllers.AdminController - AdminController.Dashboard accessed.
+2025-07-09 19:08:02,469 [7] ERROR AppUI.Controllers.AdminController - Error in AdminController.Dashboard
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Dashboard() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 34
+2025-07-09 19:08:02,584 [13] ERROR AppUI.Controllers.AdminController - An error view was triggered.
+2025-07-09 19:08:11,738 [9] INFO  AppUI.Controllers.AdminController - Accessed AdminController.Users
+2025-07-09 19:08:11,928 [13] ERROR AppUI.Controllers.AdminController - Error while fetching users
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Users() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 59
+2025-07-09 19:08:11,937 [7] ERROR AppUI.Controllers.AdminController - An error view was triggered.
+2025-07-09 19:08:22,804 [10] INFO  AppUI.Controllers.AdminController - Accessed AdminController.Employees (GET)
+2025-07-09 19:08:22,930 [10] ERROR AppUI.Controllers.AdminController - Error while fetching employee list.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Employees() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 173
+2025-07-09 19:08:22,943 [9] ERROR AppUI.Controllers.AdminController - An error view was triggered.

@@ -1,0 +1,19 @@
+<div class="container mt-4">
+  <h2 class="mb-3">Audit Trail</h2>
+  <table class="table table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th>User ID</th>
+        <th>Action</th>
+        <th>Timestamp</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ngFor="let log of logs">
+        <td>{{ log.userId }}</td>
+        <td>{{ log.action }}</td>
+        <td>{{ log.timeStamp | date:'short' }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

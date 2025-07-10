@@ -1,0 +1,30 @@
+<div class="container mt-4">
+  <h2 class="mb-4">Payroll Processor Dashboard</h2>
+
+  <div class="row">
+    <!-- Summary Cards Column -->
+    <div class="col-md-8">
+      <div class="card text-bg-primary mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Total Payrolls</h5>
+          <p class="card-text fs-4">{{ payrollCount }}</p>
+        </div>
+      </div>
+
+      <div class="card text-bg-success mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Verified Payrolls</h5>
+          <p class="card-text fs-4">{{ verifiedCount }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons Column -->
+    <div class="col-md-4">
+      <button class="btn btn-primary w-100 mb-2" routerLink="process">Process Payroll</button>
+      <button class="btn btn-secondary w-100 mb-2" routerLink="verify/:id">Verify Payroll</button>
+      <button class="btn btn-info w-100 mb-2" routerLink="audit-trail">View Audit Trail</button>
+      <button class="btn btn-warning w-100" routerLink="notifications">Notifications</button>
+    </div>
+  </div>
+</div>

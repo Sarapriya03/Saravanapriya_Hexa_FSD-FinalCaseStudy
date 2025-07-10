@@ -1,0 +1,7 @@
+2025-07-10 08:03:08,853 [14] INFO  AppUI.Controllers.AdminController - AdminController.Dashboard accessed.
+2025-07-10 08:03:09,458 [18] ERROR AppUI.Controllers.AdminController - Error in AdminController.Dashboard
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Dashboard() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 45
+2025-07-10 08:03:09,735 [14] ERROR AppUI.Controllers.AdminController - An error view was triggered.

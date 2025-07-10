@@ -1,0 +1,9 @@
+<div class="container mt-4">
+  <h2 class="mb-3">Verify Payroll</h2>
+  <ul class="list-group">
+    <li ngFor="let p of payrolls" class="list-group-item d-flex justify-content-between align-items-center">
+      Employee ID: {{ p.employeeId }} - Status: {{ p.isVerified ? 'Verified' : 'Pending' }}
+      <button class="btn btn-sm btn-primary" (click)="verify(p.payrollId)" [disabled]="p.isVerified">Verify</button>
+    </li>
+  </ul>
+</div>

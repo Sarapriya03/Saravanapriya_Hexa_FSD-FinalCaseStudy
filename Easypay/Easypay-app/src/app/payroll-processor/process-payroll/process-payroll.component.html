@@ -1,0 +1,18 @@
+<div class="container mt-4">
+  <h2 class="mb-3">Process Payroll</h2>
+  <form (ngSubmit)="submit()">
+    <div class="mb-3">
+      <label class="form-label">Employee ID</label>
+      <input class="form-control" [(ngModel)]="payroll.employeeId" name="employeeId" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Allowances</label>
+      <input class="form-control" [(ngModel)]="payroll.allowances" name="allowances" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Deductions</label>
+      <input class="form-control" [(ngModel)]="payroll.deductions" name="deductions" required>
+    </div>
+    <button class="btn btn-success">Process</button>
+  </form>
+</div>

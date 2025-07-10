@@ -13,6 +13,17 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container
 builder.Services.AddControllers();
 
+//  Enable CORS for all origins, methods, and headers
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 //  JWT Authentication
 builder.Services.AddAuthentication(options =>
 {
@@ -48,7 +59,7 @@ builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "EasyPay API",
+        Title = "Easypay API",
         Version = "v1.0"
     });
 
@@ -98,7 +109,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "EasyPay API v1.0");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Easypay API v1.0");
     });
 }
 
@@ -115,6 +126,7 @@ app.Use(async (context, next) =>
     await next();
 });
 
+app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 

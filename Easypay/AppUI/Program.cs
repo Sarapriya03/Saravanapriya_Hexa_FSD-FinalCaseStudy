@@ -1,34 +1,43 @@
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Formatters;
+﻿using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddMvc();
 
-//Register HttpClientFactory
+// ✅ Add services for controllers with views
+builder.Services.AddControllersWithViews(); // Enables [Route] + View
+
+// ✅ Register named HttpClient for API calls
 builder.Services.AddHttpClient("ApiClient", client =>
 {
-    client.BaseAddress = new Uri("http://localhost:5043/");
+    client.BaseAddress = new Uri("http://localhost:5043/"); // Your Web API base URL
     client.DefaultRequestHeaders.Add("Accept", "application/json");
-
 });
 
-//Configure session
+// ✅ Enable session
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.IdleTimeout = TimeSpan.FromMinutes(30);  // Adjust as needed
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
 });
 
 var app = builder.Build();
 
-if (builder.Environment.IsDevelopment())
+// ✅ Error handling
+if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
 }
+else
+{
+    app.UseExceptionHandler("/Admin/Error");
+}
 
+// ✅ Use static files, routing, and session
 app.UseStaticFiles();
 app.UseRouting();
 app.UseSession();
-app.UseEndpoints(endpoints => endpoints.MapControllers());
+
+// ✅ Enable attribute-based routing
+app.MapControllers(); // This supports all [Route()] in your controllers
 
 app.Run();
-

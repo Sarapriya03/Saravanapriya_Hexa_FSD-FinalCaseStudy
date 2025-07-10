@@ -9,7 +9,7 @@ using System.Text;
 
 namespace ServiceLayer.Controllers
 {
-    //[Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Admin,Manager,Employee")]
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
@@ -18,7 +18,7 @@ namespace ServiceLayer.Controllers
         private readonly IUserRepo<User> _repo;
         private readonly IConfiguration _config;
 
-        public UserController(IUserRepo<User> repo, IConfiguration config)
+        public UserController(IUserRepo<User> repo, IConfiguration config) // Constructor injection for repository and configuration
         {
             _repo = repo;
             _config = config;

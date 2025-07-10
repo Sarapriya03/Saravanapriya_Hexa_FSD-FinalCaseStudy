@@ -1,0 +1,28 @@
+2025-07-09 16:16:04,530 [7] ERROR AppUI.Logging.AppUILoggingService - Error in Dashboard
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Dashboard() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 40
+2025-07-09 16:18:03,540 [15] ERROR AppUI.Logging.AppUILoggingService - Error in Dashboard
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Dashboard() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 40
+2025-07-09 16:31:25,557 [5] ERROR AppUI.Logging.AppUILoggingService - Error in Dashboard
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Dashboard() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 40
+2025-07-09 16:36:40,377 [5] ERROR AppUI.Logging.AppUILoggingService - Error in Dashboard
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Dashboard() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 40
+2025-07-09 16:44:25,819 [10] ERROR AppUI.Logging.AppUILoggingService - Error in Dashboard
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 401 (Unauthorized).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.Json.HttpClientJsonExtensions.<FromJsonAsyncCore>g__Core|12_0[TValue,TJsonOptions](HttpClient client, Task`1 responseTask, Boolean usingResponseHeadersRead, CancellationTokenSource linkedCTS, Func`4 deserializeMethod, TJsonOptions jsonOptions, CancellationToken cancellationToken)
+   at AppUI.Controllers.AdminController.Dashboard() in E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\Controllers\AdminController.cs:line 40
+2025-07-09 17:30:27,262 [14] ERROR AppUI.Logging.AppUILoggingService - Trying to login with Email: , Password: 
+2025-07-09 17:30:55,411 [14] ERROR AppUI.Logging.AppUILoggingService - Trying to login with Email: , Password: 
+2025-07-09 17:41:11,286 [5] ERROR AppUI.Logging.AppUILoggingService - Attempting login: Email=

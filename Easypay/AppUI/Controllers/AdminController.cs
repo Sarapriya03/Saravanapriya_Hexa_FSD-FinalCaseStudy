@@ -1,6 +1,7 @@
-﻿// 1. Dashboard
-using AppUI.Models;
+﻿using AppUI.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
+using System.Text.Json;
 
 namespace AppUI.Controllers
 {
@@ -8,7 +9,6 @@ namespace AppUI.Controllers
     public class AdminController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-
         public AdminController(IHttpClientFactory httpClientFactory)
         {
             this._httpClientFactory = httpClientFactory;
@@ -17,21 +17,68 @@ namespace AppUI.Controllers
         [NonAction]
         public HttpClient GetClient()
         {
-            var client = this._httpClientFactory.CreateClient("ApiClient");
+            var client = _httpClientFactory.CreateClient("ApiClient");
+
+            var token = HttpContext.Session.GetString("jwttoken");
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+
             return client;
         }
+
+
+        [HttpGet("")]
+        [HttpGet("LoginPage")]
+        public IActionResult LoginPage()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [Route("ValidateUser", Name = "ValidateUser")]
+        public async Task<IActionResult> LoginPage(User user)
+        {
+            var client = GetClient();
+            var response = await client.PostAsJsonAsync($"api/v1.0/User/ValidateUser", user);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var tokenJson = await response.Content.ReadAsStringAsync();
+
+                // Deserialize correctly based on API return
+                var tokenObj = JsonSerializer.Deserialize<Dictionary<string, string>>(tokenJson);
+
+                if (tokenObj != null && tokenObj.ContainsKey("token"))
+                {
+                    var token = tokenObj["token"];
+                    HttpContext.Session.SetString("jwttoken", token);
+                    return RedirectToAction("Dashboard");
+                }
+                else
+                {
+                    ViewBag.Error = "Token not found in response.";
+                    return View();
+                }
+            }
+
+            ViewBag.Error = "Invalid login attempt.";
+            return View();
+        }
+
+
 
         [HttpGet("Dashboard")]
         public async Task<IActionResult> Dashboard()
         {
             var client = GetClient();
-            var employees = await client.GetFromJsonAsync<List<Employee>>("api/v1.0/Employee/GetAll");
-            var payrolls = await client.GetFromJsonAsync<List<Payroll>>("api/v1.0/Payroll/GetAll");
+            var employees = await client.GetFromJsonAsync<List<Employee>>("api/v8.0/Employee/GetAll");
+            var payrolls = await client.GetFromJsonAsync<List<Payroll>>("api/v4.0/Payroll/GetAll");
             ViewBag.PayrollCount = payrolls?.Count ?? 0;
             return View(employees);
         }
 
-        // 2. User Management
         [HttpGet("Users")]
         public async Task<IActionResult> Users()
         {
@@ -41,10 +88,7 @@ namespace AppUI.Controllers
         }
 
         [HttpGet("CreateUser")]
-        public IActionResult CreateUser()
-        {
-            return View();
-        }
+        public IActionResult CreateUser() => View();
 
         [HttpPost("CreateUser")]
         public async Task<IActionResult> CreateUser(User user)
@@ -53,40 +97,39 @@ namespace AppUI.Controllers
             var res = await client.PostAsJsonAsync("api/v1.0/User/Add", user);
             if (res.IsSuccessStatusCode)
                 return RedirectToAction("Users");
+
             ModelState.AddModelError("", "Failed to create user.");
             return View(user);
         }
 
-        // 3. Payroll Configuration
         [HttpGet("PayrollConfig")]
         public async Task<IActionResult> PayrollConfig()
         {
             var client = GetClient();
-            var configs = await client.GetFromJsonAsync<List<PayrollConfig>>($"api/v1.0/PayrollConfig/GetAll");
+            var configs = await client.GetFromJsonAsync<List<PayrollConfig>>("api/v5.0/PayrollConfig/GetAll");
             return View(configs);
         }
 
-
         [HttpGet("CreatePayrollConfig")]
         public IActionResult CreatePayrollConfig() => View();
-        
+
         [HttpPost("CreatePayrollConfig")]
         public async Task<IActionResult> CreatePayrollConfig(PayrollConfig config)
         {
             var client = GetClient();
-            var res = await client.PostAsJsonAsync("api/v1.0/PayrollConfig/AddorUpdate", config);
+            var res = await client.PostAsJsonAsync("api/v5.0/PayrollConfig/AddorUpdate", config);
             if (res.IsSuccessStatusCode)
                 return RedirectToAction("PayrollConfig");
+
             ModelState.AddModelError("", "Failed to add config.");
             return View(config);
         }
 
-        // 4. Employee Management
         [HttpGet("Employees")]
         public async Task<IActionResult> Employees()
         {
             var client = GetClient();
-            var employees = await client.GetFromJsonAsync<List<Employee>>("api/v1.0/Employee/GetAll");
+            var employees = await client.GetFromJsonAsync<List<Employee>>("api/v8.0/Employee/GetAll");
             return View(employees);
         }
 
@@ -97,37 +140,35 @@ namespace AppUI.Controllers
         public async Task<IActionResult> CreateEmployee(Employee emp)
         {
             var client = GetClient();
-            var res = await client.PostAsJsonAsync("api/v1.0/Employee/Add", emp);
+            var res = await client.PostAsJsonAsync("api/v8.0/Employee/Add", emp);
             if (res.IsSuccessStatusCode)
                 return RedirectToAction("Employees");
+
             ModelState.AddModelError("", "Failed to create employee.");
             return View(emp);
         }
 
-        // 5. Compliance Reporting
         [HttpGet("ComplianceReports")]
         public async Task<IActionResult> ComplianceReports()
         {
             var client = GetClient();
-            var reports = await client.GetFromJsonAsync<List<string>>("api/v1.0/Report/GetComplianceReports");
+            var reports = await client.GetFromJsonAsync<List<string>>("api/v3.0/Report/GetComplianceReports");
             return View(reports);
         }
 
-        // 6. Notification Center
         [HttpGet("Notifications")]
         public async Task<IActionResult> Notifications()
         {
             var client = GetClient();
-            var notes = await client.GetFromJsonAsync<List<Notification>>("api/v1.0/Notification/GetAll");
+            var notes = await client.GetFromJsonAsync<List<Notification>>("api/v6.0/Notification/GetAll");
             return View(notes);
         }
 
-        // 7. Audit Trail
         [HttpGet("AuditTrail")]
         public async Task<IActionResult> AuditTrail()
         {
             var client = GetClient();
-            var logs = await client.GetFromJsonAsync<List<AuditLog>>("api/v1.0/AuditLog/GetAll");
+            var logs = await client.GetFromJsonAsync<List<AuditLog>>("api/v10.0/AuditLog/GetAll");
             return View(logs);
         }
     }

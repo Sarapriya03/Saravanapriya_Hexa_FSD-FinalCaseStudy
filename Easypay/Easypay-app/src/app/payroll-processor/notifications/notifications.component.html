@@ -1,0 +1,11 @@
+<div class="container mt-4">
+  <h2 class="mb-3">Notifications</h2>
+  <ul class="list-group">
+    <li ngFor="let note of notifications" class="list-group-item">
+      <b>{{ note.sentDate | date:'short' }}:</b> {{ note.message }}
+      <span class="badge bg-{{ note.isRead ? 'secondary' : 'warning' }} float-end">
+        {{ note.isRead ? 'Read' : 'Unread' }}
+      </span>
+    </li>
+  </ul>
+</div>
