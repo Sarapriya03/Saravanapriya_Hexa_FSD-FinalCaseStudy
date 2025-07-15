@@ -128,8 +128,6 @@ namespace DAL.Migrations
 
                     b.HasKey("LeaveRequestId");
 
-                    b.HasIndex("EmployeeId");
-
                     b.ToTable("LeaveRequest");
                 });
 
@@ -156,8 +154,6 @@ namespace DAL.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("NotificationId");
-
-                    b.HasIndex("EmployeeId");
 
                     b.ToTable("Notification");
                 });
@@ -189,9 +185,11 @@ namespace DAL.Migrations
                         .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("PayrollId");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasIndex("EmployeeId");
+                    b.HasKey("PayrollId");
 
                     b.ToTable("Payroll");
                 });
@@ -221,8 +219,6 @@ namespace DAL.Migrations
 
                     b.HasKey("ConfigId");
 
-                    b.HasIndex("EmployeeId");
-
                     b.ToTable("PayrollConfig");
                 });
 
@@ -244,8 +240,6 @@ namespace DAL.Migrations
                         .HasColumnType("float");
 
                     b.HasKey("TimesheetId");
-
-                    b.HasIndex("EmployeeId");
 
                     b.ToTable("Timesheet");
                 });
@@ -276,68 +270,6 @@ namespace DAL.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("User");
-                });
-
-            modelBuilder.Entity("DAL.Models.LeaveRequest", b =>
-                {
-                    b.HasOne("DAL.Models.Employee", "Employee")
-                        .WithMany("LeaveRequests")
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("DAL.Models.Notification", b =>
-                {
-                    b.HasOne("DAL.Models.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("DAL.Models.Payroll", b =>
-                {
-                    b.HasOne("DAL.Models.Employee", "Employee")
-                        .WithMany("Payrolls")
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("DAL.Models.PayrollConfig", b =>
-                {
-                    b.HasOne("DAL.Models.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("DAL.Models.Timesheet", b =>
-                {
-                    b.HasOne("DAL.Models.Employee", "Employee")
-                        .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("DAL.Models.Employee", b =>
-                {
-                    b.Navigation("LeaveRequests");
-
-                    b.Navigation("Payrolls");
                 });
 #pragma warning restore 612, 618
         }

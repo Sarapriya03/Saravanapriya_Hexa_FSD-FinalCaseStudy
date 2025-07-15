@@ -1,0 +1,12 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px;
+}
+
+.nav-link {
+  cursor: pointer;
+}

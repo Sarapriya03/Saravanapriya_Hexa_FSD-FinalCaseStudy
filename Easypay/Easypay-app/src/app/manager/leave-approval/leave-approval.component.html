@@ -1,0 +1,53 @@
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Leave Approval</h2>
+
+  <!-- 🔁 Manager Navigation -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-3 d-grid mb-2">
+      <a routerLink="/manager-dashboard" class="btn btn-secondary">Go to Dashboard</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a routerLink="/team-payroll" class="btn btn-info text-white">Manage Team Payroll</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a routerLink="/manager-notifications" class="btn btn-warning">Notifications</a>
+    </div>
+  </div>
+
+  <!-- ℹ️ Message if no leave requests -->
+  <div *ngIf="leaveRequests.length === 0" class="alert alert-info text-center">
+    No pending leave requests.
+  </div>
+
+  <!-- 📄 Leave Requests Table -->
+  <table *ngIf="leaveRequests.length > 0" class="table table-bordered table-striped">
+    <thead class="table-dark text-center">
+      <tr>
+        <th>LeaveRequest ID</th>
+        <th>Employee ID</th>
+        <th>From Date</th>
+        <th>To Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let leave of leaveRequests">
+        <td>{{ leave.leaveRequestId }}</td>
+        <td>{{ leave.employeeId }}</td>
+        <td>{{ leave.startDate | date: 'mediumDate' }}</td>
+        <td>{{ leave.endDate | date: 'mediumDate' }}</td>
+        <td class="text-center">
+          <button class="btn btn-success btn-sm me-2" (click)="updateLeaveStatus(leave, 'Approved')">Approve</button>
+          <button class="btn btn-danger btn-sm" (click)="updateLeaveStatus(leave, 'Rejected')">Reject</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 🔙 Back to Home -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-3 d-grid">
+      <a routerLink="/manager-home" class="btn btn-outline-dark">Back to Home</a>
+    </div>
+  </div>
+</div>

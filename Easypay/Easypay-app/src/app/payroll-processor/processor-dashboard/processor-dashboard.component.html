@@ -1,0 +1,41 @@
+<div class="container mt-4">
+  <h2 class="mb-4 text-center">Payroll Dashboard</h2>
+
+  <!-- Summary Card -->
+  <div class="row justify-content-center">
+    <div class="col-md-4">
+      <div class="card text-white bg-primary mb-4 shadow">
+        <div class="card-header text-center">Total Payrolls</div>
+        <div class="card-body text-center">
+          <h5 class="card-title display-6">{{ payrollCount }}</h5>
+          <p class="card-text">Number of payrolls processed so far.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <div class="row justify-content-center g-3">
+    <div class="col-md-3 d-grid">
+      <a routerLink="/process-payroll" class="btn btn-secondary">Payroll Processing</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/verify-payroll" class="btn btn-warning">Payroll Verification</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/audit-trail" class="btn btn-info">Audit Trail</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/processor-notifications" class="btn btn-success">Notifications</a>
+    </div>
+  </div>
+
+  <!-- Back to Home Button -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-4 d-grid">
+      <a routerLink="/processor-home" class="btn btn-outline-dark">
+        <i class="bi bi-arrow-left-circle"></i> Back to Home
+      </a>
+    </div>
+  </div>
+</div>

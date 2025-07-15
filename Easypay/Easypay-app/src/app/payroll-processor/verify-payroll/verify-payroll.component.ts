@@ -1,29 +1,38 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PayrollService } from '../../services/payroll.service';
+import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { PayrollProcessorService } from '../../services/payroll.service';
 import { Payroll } from '../../models/payroll.model';
 
 @Component({
   selector: 'app-verify-payroll',
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './verify-payroll.component.html',
   styleUrl: './verify-payroll.component.css'
 })
 export class VerifyPayrollComponent {
   payrolls: Payroll[] = [];
 
-  constructor(private payrollService: PayrollService) {}
+  constructor(private payrollService: PayrollProcessorService) {}
 
   ngOnInit(): void {
     this.loadPayrolls();
   }
 
   loadPayrolls(): void {
-    this.payrollService.getPayrolls().subscribe(data => this.payrolls = data);
+    this.payrollService.getAllPayrolls().subscribe(data => {
+      this.payrolls = data.filter(p => p.status === 'Pending');
+    });
   }
 
-  verify(id: number): void {
-    this.payrollService.verifyPayroll(id).subscribe(() => {
+  finalizePayroll(payroll: Payroll): void {
+    const updatedPayroll: Payroll = {
+      ...payroll,
+      status: 'Finalized'
+    };
+
+    this.payrollService.updatePayroll(updatedPayroll).subscribe(() => {
       this.loadPayrolls();
     });
   }

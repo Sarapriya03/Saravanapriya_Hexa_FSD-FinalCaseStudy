@@ -1,0 +1,32 @@
+<div class="container mt-5">
+  <h3 class="text-center mb-4">Employee Notifications</h3>
+
+  <!-- Notification List -->
+  <div *ngFor="let n of notes" class="alert" [ngClass]="n.isRead ? 'alert-secondary' : 'alert-info'">
+    <small class="text-muted">{{ n.sentDate | date: 'short' }}</small><br />
+    <p class="mb-1">{{ n.message }}</p>
+  </div>
+
+  <!-- Navigation Buttons (Shown only once, after all notifications) -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-primary btn-sm" [routerLink]="['/dashboard']">Go to Dashboard</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-secondary btn-sm" [routerLink]="['/profile']">View Profile</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-warning btn-sm" [routerLink]="['/leave-request']">Submit Leave Requests</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-info text-white btn-sm" [routerLink]="['/timesheets']">Submit Timesheets</a>
+    </div>
+  </div>
+
+  <!-- Back to Home Button -->
+  <div class="row justify-content-center mt-3">
+    <div class="col-md-3 d-grid">
+      <a class="btn btn-outline-dark" [routerLink]="['/home']">Back to Home</a>
+    </div>
+  </div>
+</div>

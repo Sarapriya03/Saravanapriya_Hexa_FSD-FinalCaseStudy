@@ -1,20 +1,30 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PayrollService } from '../../services/payroll.service';
+import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { AuditLogService } from '../../services/audit-log.service';
 import { AuditLog } from '../../models/audit-log.model';
 
 @Component({
   selector: 'app-audit-trail',
-  imports: [CommonModule],
+  standalone: true,
+  imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './audit-trail.component.html',
-  styleUrl: './audit-trail.component.css'
+  styleUrls: ['./audit-trail.component.css']
 })
-export class AuditTrailComponent {
+export class AuditTrailComponent implements OnInit {
   logs: AuditLog[] = [];
 
-  constructor(private payrollService: PayrollService) {}
+  constructor(private auditService: AuditLogService) {} // ✅ renamed for clarity
 
   ngOnInit(): void {
-    this.payrollService.getAuditLogs().subscribe(data => this.logs = data);
+    this.auditService.getAllLogs().subscribe({
+      next: (data: AuditLog[]) => {
+        this.logs = data;
+      },
+      error: (err) => {
+        console.error('Failed to load audit logs:', err);
+      }
+    });
   }
 }

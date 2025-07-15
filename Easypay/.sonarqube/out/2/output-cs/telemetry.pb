@@ -1,0 +1,1 @@
+oRYE:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\DAL\DAL.csproj¢net8.0òCSharp12

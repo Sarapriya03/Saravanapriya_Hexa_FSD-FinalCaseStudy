@@ -14,7 +14,7 @@ namespace AppUI.Controllers
             this._httpClientFactory = httpClientFactory;
         }
 
-        [NonAction]
+        [NonAction] // This method is not an action method, it is used internally to get the HttpClient
         public HttpClient GetClient()
         {
             var client = _httpClientFactory.CreateClient("ApiClient");
@@ -30,15 +30,15 @@ namespace AppUI.Controllers
 
 
         [HttpGet("")]
-        [HttpGet("LoginPage")]
+        [HttpGet("LoginPage")] // This route will match both the root and LoginPage
         public IActionResult LoginPage()
         {
             return View();
         }
 
         [HttpPost]
-        [Route("ValidateUser", Name = "ValidateUser")]
-        public async Task<IActionResult> LoginPage(User user)
+        [Route("ValidateUser", Name = "ValidateUser")] // Explicitly define the route for this action
+        public async Task<IActionResult> LoginPage(User user) // ValidateUser(User user)
         {
             var client = GetClient();
             var response = await client.PostAsJsonAsync($"api/v1.0/User/ValidateUser", user);
@@ -54,7 +54,7 @@ namespace AppUI.Controllers
                 {
                     var token = tokenObj["token"];
                     HttpContext.Session.SetString("jwttoken", token);
-                    return RedirectToAction("Dashboard");
+                    return RedirectToAction("HomePanel");
                 }
                 else
                 {
@@ -67,10 +67,14 @@ namespace AppUI.Controllers
             return View();
         }
 
-
+        [HttpGet("HomePanel")]
+        public IActionResult HomePanel() // This route will match HomePanel
+        {
+            return View();
+        }
 
         [HttpGet("Dashboard")]
-        public async Task<IActionResult> Dashboard()
+        public async Task<IActionResult> Dashboard() // This route will match Dashboard
         {
             var client = GetClient();
             var employees = await client.GetFromJsonAsync<List<Employee>>("api/v8.0/Employee/GetAll");
@@ -80,18 +84,18 @@ namespace AppUI.Controllers
         }
 
         [HttpGet("Users")]
-        public async Task<IActionResult> Users()
+        public async Task<IActionResult> Users() // This route will match Users
         {
             var client = GetClient();
             var users = await client.GetFromJsonAsync<List<User>>("api/v1.0/User/GetAll");
             return View(users);
         }
 
-        [HttpGet("CreateUser")]
+        [HttpGet("CreateUser")] 
         public IActionResult CreateUser() => View();
 
         [HttpPost("CreateUser")]
-        public async Task<IActionResult> CreateUser(User user)
+        public async Task<IActionResult> CreateUser(User user) // This route will match CreateUser
         {
             var client = GetClient();
             var res = await client.PostAsJsonAsync("api/v1.0/User/Add", user);
@@ -103,18 +107,18 @@ namespace AppUI.Controllers
         }
 
         [HttpGet("PayrollConfig")]
-        public async Task<IActionResult> PayrollConfig()
+        public async Task<IActionResult> PayrollConfig() // This route will match PayrollConfig
         {
             var client = GetClient();
             var configs = await client.GetFromJsonAsync<List<PayrollConfig>>("api/v5.0/PayrollConfig/GetAll");
             return View(configs);
         }
 
-        [HttpGet("CreatePayrollConfig")]
+        [HttpGet("CreatePayrollConfig")] 
         public IActionResult CreatePayrollConfig() => View();
 
         [HttpPost("CreatePayrollConfig")]
-        public async Task<IActionResult> CreatePayrollConfig(PayrollConfig config)
+        public async Task<IActionResult> CreatePayrollConfig(PayrollConfig config) // This route will match CreatePayrollConfig
         {
             var client = GetClient();
             var res = await client.PostAsJsonAsync("api/v5.0/PayrollConfig/AddorUpdate", config);
@@ -126,7 +130,7 @@ namespace AppUI.Controllers
         }
 
         [HttpGet("Employees")]
-        public async Task<IActionResult> Employees()
+        public async Task<IActionResult> Employees() // This route will match Employees
         {
             var client = GetClient();
             var employees = await client.GetFromJsonAsync<List<Employee>>("api/v8.0/Employee/GetAll");
@@ -137,7 +141,7 @@ namespace AppUI.Controllers
         public IActionResult CreateEmployee() => View();
 
         [HttpPost("CreateEmployee")]
-        public async Task<IActionResult> CreateEmployee(Employee emp)
+        public async Task<IActionResult> CreateEmployee(Employee emp) // This route will match CreateEmployee
         {
             var client = GetClient();
             var res = await client.PostAsJsonAsync("api/v8.0/Employee/Add", emp);
@@ -149,7 +153,7 @@ namespace AppUI.Controllers
         }
 
         [HttpGet("ComplianceReports")]
-        public async Task<IActionResult> ComplianceReports()
+        public async Task<IActionResult> ComplianceReports() // This route will match ComplianceReports
         {
             var client = GetClient();
             var reports = await client.GetFromJsonAsync<List<string>>("api/v3.0/Report/GetComplianceReports");
@@ -157,7 +161,7 @@ namespace AppUI.Controllers
         }
 
         [HttpGet("Notifications")]
-        public async Task<IActionResult> Notifications()
+        public async Task<IActionResult> Notifications() // This route will match Notifications
         {
             var client = GetClient();
             var notes = await client.GetFromJsonAsync<List<Notification>>("api/v6.0/Notification/GetAll");
@@ -165,7 +169,7 @@ namespace AppUI.Controllers
         }
 
         [HttpGet("AuditTrail")]
-        public async Task<IActionResult> AuditTrail()
+        public async Task<IActionResult> AuditTrail() // This route will match AuditTrail
         {
             var client = GetClient();
             var logs = await client.GetFromJsonAsync<List<AuditLog>>("api/v10.0/AuditLog/GetAll");

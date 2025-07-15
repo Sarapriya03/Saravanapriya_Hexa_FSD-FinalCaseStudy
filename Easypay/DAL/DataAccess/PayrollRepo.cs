@@ -39,13 +39,20 @@ namespace DAL.DataAccess
                 var existing = dbContext.Payrolls.FirstOrDefault(p => p.PayrollId == payroll.PayrollId);
                 if (existing != null)
                 {
+                    // ✅ Update all relevant fields
                     existing.Salary = payroll.Salary;
+                    existing.Bonus = payroll.Bonus;
+                    existing.Deductions = payroll.Deductions;
+                    existing.NetSalary = payroll.NetSalary;
                     existing.PayrollDate = payroll.PayrollDate;
-                    dbContext.SaveChanges();
+                    existing.Status = payroll.Status; // ✅ Important line to update Status
+
+                    dbContext.SaveChanges(); // ✅ Save the changes
                 }
                 return existing;
             }
         }
+
 
         public Payroll DeletePayroll(Payroll payroll)
         {

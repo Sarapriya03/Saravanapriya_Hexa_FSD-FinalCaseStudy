@@ -1,1 +1,66 @@
-<p>profile works!</p>
+<div class="container mt-5">
+  <h3 class="text-center mb-4">My Profile</h3>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+  </div>
+
+  <div *ngIf="showProfile" class="border p-4 bg-light rounded">
+    <form *ngIf="isEditing" (ngSubmit)="save()">
+      <div class="mb-3">
+        <label class="form-label">Employee ID</label>
+        <input class="form-control" [(ngModel)]="employee.employeeId" name="employeeId" readonly>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input class="form-control" [(ngModel)]="employee.name" name="name" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input class="form-control" [(ngModel)]="employee.email" name="email" type="email" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Department</label>
+        <input class="form-control" [(ngModel)]="employee.department" name="department">
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <button class="btn btn-success" type="submit">Save</button>
+        <button class="btn btn-secondary" type="button" (click)="cancelEdit()">Cancel</button>
+      </div>
+    </form>
+
+    <div *ngIf="!isEditing">
+      <p><strong>Employee ID:</strong> {{ employee.employeeId }}</p>
+      <p><strong>Name:</strong> {{ employee.name }}</p>
+      <p><strong>Email:</strong> {{ employee.email }}</p>
+      <p><strong>Department:</strong> {{ employee.department }}</p>
+      <button class="btn btn-primary" (click)="enableEdit()">Edit</button>
+    </div>
+  </div>
+
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-primary btn-sm" [routerLink]="['/dashboard']">Go to Dashboard</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-warning btn-sm" [routerLink]="['/leave-request']">Submit Leave Requests</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-info text-white btn-sm" [routerLink]="['/timesheets']">Submit Timesheets</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-secondary btn-sm" [routerLink]="['/notifications']">View Notifications</a>
+    </div>
+  </div>
+
+  <!-- Back to Home Button -->
+  <div class="row justify-content-center mt-3">
+    <div class="col-md-3 d-grid">
+      <a class="btn btn-outline-dark" [routerLink]="['/home']">Back to Home</a>
+    </div>
+  </div>
+</div>

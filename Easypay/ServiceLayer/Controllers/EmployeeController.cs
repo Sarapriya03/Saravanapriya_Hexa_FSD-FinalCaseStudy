@@ -3,7 +3,7 @@ using DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-[Authorize(Roles = "Admin,Manager,Employee")]
+[AllowAnonymous]
 [ApiVersion("8.0")]
 [Route("api/v{version:apiVersion}/[controller]")]
 [ApiController]
@@ -23,7 +23,7 @@ public class EmployeeController : ControllerBase
         return Ok(result);
     }
 
-    [HttpGet("{id}/GetById")] // Get employee by ID
+    [HttpGet("GetById/{id}")] // Get employee by ID
     public IActionResult GetById(int id)
     {
         var result = _repo.GetEmployeeById(id);

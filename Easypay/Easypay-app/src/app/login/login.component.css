@@ -1,0 +1,26 @@
+.login-page {
+  background: linear-gradient(-45deg, #007bff, #6c63ff, #20c997, #17a2b8);
+  background-size: 400% 400%;
+  animation: gradientAnimation 12s ease infinite;
+  padding: 20px;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.card {
+  border-radius: 15px;
+  background-color: #ffffffee; /* semi-transparent white */
+}
+
+form .form-label {
+  font-weight: 500;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}

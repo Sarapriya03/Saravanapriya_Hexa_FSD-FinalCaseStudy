@@ -1,0 +1,46 @@
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Manager Dashboard</h2>
+
+  <!-- Navigation Buttons -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-3 d-grid mb-2">
+      <a routerLink="/team-payroll" class="btn btn-secondary">Manage Team Payroll</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a routerLink="/leave-approval" class="btn btn-warning">Approve Leaves</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a routerLink="/manager-notifications" class="btn btn-info text-white">Notifications</a>
+    </div>
+  </div>
+
+  <!-- Data Section -->
+  <div class="row">
+    <div class="col-md-6">
+      <h4>Team Payrolls (In Progress)</h4>
+      <ul class="list-group">
+        <li *ngFor="let p of teamPayrolls" class="list-group-item">
+          Employee ID: {{ p.employeeId }} |
+          Net Salary: ₹{{ p.netSalary }}
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-md-6">
+      <h4>Pending Leave Requests</h4>
+      <ul class="list-group">
+        <li *ngFor="let l of pendingLeaves" class="list-group-item">
+          Employee ID: {{ l.employeeId }} |
+          From: {{ l.startDate | date }} To: {{ l.endDate | date }}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Back to Manager Home Button (conditionally useful for sub-pages) -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-3 d-grid">
+      <a class="btn btn-outline-dark" routerLink="/manager-home">Back to Home</a>
+    </div>
+  </div>
+</div>

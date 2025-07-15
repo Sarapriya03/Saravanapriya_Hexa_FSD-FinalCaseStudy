@@ -28,5 +28,6 @@ namespace DAL.Models
         public decimal NetSalary { get; set; }
 
         public DateTime PayrollDate { get; set; }
+        public string Status { get; set; }
     }
 }

@@ -1,18 +1,49 @@
 <div class="container mt-4">
-  <h2 class="mb-3">Process Payroll</h2>
-  <form (ngSubmit)="submit()">
+  <h2 class="mb-3 text-center">Process Payroll</h2>
+
+  <form (ngSubmit)="submit()" class="mx-auto" style="max-width: 600px;">
     <div class="mb-3">
       <label class="form-label">Employee ID</label>
-      <input class="form-control" [(ngModel)]="payroll.employeeId" name="employeeId" required>
+      <input type="text" class="form-control" [(ngModel)]="payroll.employeeId" name="employeeId" required>
     </div>
+
     <div class="mb-3">
-      <label class="form-label">Allowances</label>
-      <input class="form-control" [(ngModel)]="payroll.allowances" name="allowances" required>
+      <label class="form-label">Bonus</label>
+      <input type="number" class="form-control" [(ngModel)]="payroll.bonus" name="bonus" required>
     </div>
+
     <div class="mb-3">
       <label class="form-label">Deductions</label>
-      <input class="form-control" [(ngModel)]="payroll.deductions" name="deductions" required>
+      <input type="number" class="form-control" [(ngModel)]="payroll.deductions" name="deductions" required>
     </div>
-    <button class="btn btn-success">Process</button>
+
+    <div class="d-grid">
+      <button type="submit" class="btn btn-success">Process</button>
+    </div>
   </form>
+
+  <!-- Navigation Buttons -->
+  <div class="row justify-content-center mt-4 g-3">
+    <div class="col-md-3 d-grid">
+      <a routerLink="/processor-dashboard" class="btn btn-primary">Dashboard</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/verify-payroll" class="btn btn-warning">Verify Payroll</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/audit-trail" class="btn btn-info">Audit Trail</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/processor-notifications" class="btn btn-secondary">Notifications</a>
+    </div>
+  </div>
+
+  <!-- Back to Home Button -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-4 d-grid">
+      <a routerLink="/processor-home" class="btn btn-outline-dark">
+        <i class="bi bi-arrow-left-circle"></i> Back to Home
+      </a>
+    </div>
+  </div>
 </div>

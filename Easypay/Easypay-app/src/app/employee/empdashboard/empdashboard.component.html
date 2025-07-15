@@ -1,0 +1,46 @@
+<div class="container mt-5">
+  <h2 class="mb-4 text-center">Employee Dashboard</h2>
+
+  <div *ngIf="payrollConfig; else noData">
+    <div class="alert alert-success text-center">
+      Net Pay: ₹{{ payrollConfig.allowances - payrollConfig.deductions }} | Tax Rate: {{ payrollConfig.taxRate }}%
+    </div>
+    <div class="card shadow mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Payroll Configuration</h5>
+        <p><strong>Allowances:</strong> ₹{{ payrollConfig.allowances }}</p>
+        <p><strong>Deductions:</strong> ₹{{ payrollConfig.deductions }}</p>
+        <p><strong>Tax Rate:</strong> {{ payrollConfig.taxRate }}%</p>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noData>
+    <div class="alert alert-warning text-center">
+      {{ errorMessage || 'Payroll configuration not found.' }}
+    </div>
+  </ng-template>
+
+  <!-- Navigation Buttons -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-primary" [routerLink]="['/profile']">View Profile</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-secondary" [routerLink]="['/leave-request']">Leave Requests</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-info text-white" [routerLink]="['/timesheets']">Timesheets</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-warning" [routerLink]="['/notifications']">Notifications</a>
+    </div>
+  </div>
+
+  <!-- Back to Home Button -->
+  <div class="row justify-content-center mt-3">
+    <div class="col-md-3 d-grid">
+      <a class="btn btn-outline-dark" [routerLink]="['/home']">Back to Home</a>
+    </div>
+  </div>
+</div>

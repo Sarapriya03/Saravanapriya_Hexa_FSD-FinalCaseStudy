@@ -1,1 +1,50 @@
-<p>leave-request works!</p>
+<div class="container mt-5">
+  <h3 class="text-center mb-4">Submit Leave Request</h3>
+
+  <form (ngSubmit)="submit()" class="border p-4 rounded bg-light">
+
+    <div class="mb-3">
+      <label class="form-label">Employee ID</label>
+      <input type="number" class="form-control" [(ngModel)]="request.employeeId" name="employeeId" required>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Start Date</label>
+      <input type="date" class="form-control" [(ngModel)]="request.startDate" name="startDate" required>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">End Date</label>
+      <input type="date" class="form-control" [(ngModel)]="request.endDate" name="endDate" required>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Status</label>
+      <textarea class="form-control" [(ngModel)]="request.status" name="status"></textarea>
+    </div>
+
+    <button class="btn btn-success w-100" type="submit">Submit</button>
+  </form>
+
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-primary btn-sm" [routerLink]="['/dashboard']">Go to Dashboard</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-secondary btn-sm" [routerLink]="['/profile']">View Profile</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-warning btn-sm" [routerLink]="['/timesheets']">Submit Timesheets</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-info text-white btn-sm" [routerLink]="['/notifications']">View Notifications</a>
+    </div>
+  </div>
+
+  <!-- Back to Home Button -->
+  <div class="row justify-content-center mt-3">
+    <div class="col-md-3 d-grid">
+      <a class="btn btn-outline-dark" [routerLink]="['/home']">Back to Home</a>
+    </div>
+  </div>
+</div>

@@ -117,27 +117,6 @@
   },
   {
     "ContainingType": "EmployeeController",
-    "Method": "GetById",
-    "RelativePath": "api/v{version}/Employee/{id}/GetById",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "version",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EmployeeController",
     "Method": "Add",
     "RelativePath": "api/v{version}/Employee/Add",
     "HttpMethod": "POST",
@@ -186,6 +165,27 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeController",
+    "Method": "GetById",
+    "RelativePath": "api/v{version}/Employee/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
       {
         "Name": "version",
         "Type": "",

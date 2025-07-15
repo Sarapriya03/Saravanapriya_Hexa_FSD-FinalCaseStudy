@@ -1,0 +1,43 @@
+<div class="container mt-4">
+  <h2 class="mb-3 text-center">Notifications</h2>
+
+  <!-- Notification List -->
+  <ul class="list-group mb-4">
+    <li *ngFor="let note of notes" class="list-group-item d-flex justify-content-between align-items-start">
+      <div>
+        <strong>Notification #{{ note.notificationId }}</strong><br />
+        <small class="text-muted">Sent: {{ note.sentDate | date: 'short' }}</small><br />
+        <span>{{ note.message }}</span>
+      </div>
+
+      <span class="badge rounded-pill bg-{{ note.isRead ? 'secondary' : 'warning' }} align-self-center">
+        {{ note.isRead ? 'Read' : 'Unread' }}
+      </span>
+    </li>
+  </ul>
+
+  <!-- Navigation Buttons -->
+  <div class="row justify-content-center g-3">
+    <div class="col-md-3 d-grid">
+      <a routerLink="/processor-dashboard" class="btn btn-primary">Dashboard</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/process-payroll" class="btn btn-success">Process Payroll</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/verify-payroll" class="btn btn-warning">Verify Payroll</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/audit-trail" class="btn btn-info">Audit Trail</a>
+    </div>
+  </div>
+
+  <!-- Back to Home Button -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-4 d-grid">
+      <a routerLink="/processor-home" class="btn btn-outline-dark">
+        <i class="bi bi-arrow-left-circle"></i> Back to Home
+      </a>
+    </div>
+  </div>
+</div>

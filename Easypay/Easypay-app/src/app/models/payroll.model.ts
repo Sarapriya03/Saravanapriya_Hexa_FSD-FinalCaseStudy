@@ -6,5 +6,5 @@ export interface Payroll {
     deductions:number,
     netSalary:number,
     payrollDate:Date,
-    isVerified:boolean
+    status:string
 }

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLaye
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUI", "AppUI\AppUI.csproj", "{0FF600EC-3A1B-4DFE-A5BB-A8E531482F19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasypayTests", "EasypayTests\EasypayTests.csproj", "{B4F5A23C-1DD7-A1F2-58F3-B804D565F818}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0FF600EC-3A1B-4DFE-A5BB-A8E531482F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FF600EC-3A1B-4DFE-A5BB-A8E531482F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FF600EC-3A1B-4DFE-A5BB-A8E531482F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F5A23C-1DD7-A1F2-58F3-B804D565F818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F5A23C-1DD7-A1F2-58F3-B804D565F818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F5A23C-1DD7-A1F2-58F3-B804D565F818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F5A23C-1DD7-A1F2-58F3-B804D565F818}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

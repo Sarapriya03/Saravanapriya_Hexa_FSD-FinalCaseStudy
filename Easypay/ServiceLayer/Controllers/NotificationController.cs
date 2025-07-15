@@ -3,7 +3,7 @@ using DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-[Authorize(Roles = "Admin,Manager,Employee")]
+[AllowAnonymous]
 [ApiVersion("6.0")]
 [Route("api/v{version:apiVersion}/[controller]")]
 [ApiController]

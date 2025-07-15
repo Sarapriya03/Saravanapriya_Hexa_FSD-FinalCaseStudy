@@ -1,0 +1,51 @@
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Team Payroll Information</h2>
+
+  <!-- Navigation Buttons -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-3 d-grid mb-2">
+      <a routerLink="/manager-dashboard" class="btn btn-primary">Go to Dashboard</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a routerLink="/leave-approval" class="btn btn-warning">Approve Leaves</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a routerLink="/manager-notifications" class="btn btn-info text-white">Notifications</a>
+    </div>
+  </div>
+
+  <!-- Payroll Table -->
+  <table class="table table-bordered table-striped">
+    <thead class="table-dark text-center">
+      <tr>
+        <th>Payroll ID</th>
+        <th>Employee ID</th>
+        <th>Salary</th>
+        <th>Bonus</th>
+        <th>Deductions</th>
+        <th>Net Salary</th>
+        <th>Payroll Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of payrolls">
+        <td>{{ p.payrollId }}</td>
+        <td>{{ p.employeeId }}</td>
+        <td>₹{{ p.salary }}</td>
+        <td>₹{{ p.bonus }}</td>
+        <td>₹{{ p.deductions }}</td>
+        <td>₹{{ p.netSalary }}</td>
+        <td>{{ p.payrollDate }}</td>
+        <td>{{ p.status }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Back to Manager Home -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-3 d-grid">
+      <a routerLink="/manager-home" class="btn btn-outline-dark">Back to Home</a>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,44 @@
-<p>timesheets works!</p>
+<div class="container mt-5">
+  <h3 class="text-center mb-4">Submit Timesheet</h3>
+
+  <form (ngSubmit)="submit()" class="border p-4 bg-light rounded">
+    <div class="mb-3">
+      <label class="form-label">Employee ID</label>
+      <input type="number" class="form-control" [(ngModel)]="sheet.employeeId" name="employeeId" required>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Date</label>
+      <input type="date" class="form-control" [(ngModel)]="sheet.date" name="date" required>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Hours Worked</label>
+      <input type="number" class="form-control" [(ngModel)]="sheet.hoursWorked" name="hoursWorked" required min="0">
+    </div>
+
+    <button class="btn btn-primary w-100" type="submit">Submit Timesheet</button>
+  </form>
+
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-primary btn-sm" [routerLink]="['/dashboard']">Go to Dashboard</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-secondary btn-sm" [routerLink]="['/profile']">View Profile</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-warning btn-sm" [routerLink]="['/leave-request']">Submit Leave Requests</a>
+    </div>
+    <div class="col-md-3 d-grid mb-2">
+      <a class="btn btn-info text-white btn-sm" [routerLink]="['/notifications']">View Notifications</a>
+    </div>
+  </div>
+
+  <!-- Back to Home Button -->
+  <div class="row justify-content-center mt-3">
+    <div class="col-md-3 d-grid">
+      <a class="btn btn-outline-dark" [routerLink]="['/home']">Back to Home</a>
+    </div>
+  </div>
+</div>

@@ -1,19 +1,55 @@
 <div class="container mt-4">
-  <h2 class="mb-3">Audit Trail</h2>
-  <table class="table table-bordered">
-    <thead class="table-dark">
-      <tr>
-        <th>User ID</th>
-        <th>Action</th>
-        <th>Timestamp</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr ngFor="let log of logs">
-        <td>{{ log.userId }}</td>
-        <td>{{ log.action }}</td>
-        <td>{{ log.timeStamp | date:'short' }}</td>
-      </tr>
-    </tbody>
-  </table>
+  <h2 class="mb-3 text-center">Audit Trail</h2>
+
+  <!-- ℹ️ Loading or No Logs Message -->
+  <div *ngIf="logs.length === 0" class="alert alert-info text-center">
+    No audit logs available.
+  </div>
+
+  <!-- ✅ Audit Table -->
+  <div *ngIf="logs.length > 0" class="table-responsive">
+    <table class="table table-bordered table-hover">
+      <thead class="table-dark text-center">
+        <tr>
+          <th>AuditLog ID</th>
+          <th>User ID</th>
+          <th>Action</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let log of logs">
+          <td>{{ log.auditLogId }}</td>
+          <td>{{ log.userId }}</td>
+          <td>{{ log.action }}</td>
+          <td>{{ log.timestamp | date: 'short' }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 🔁 Navigation Buttons -->
+  <div class="row justify-content-center g-3 mt-4">
+    <div class="col-md-3 d-grid">
+      <a routerLink="/processor-dashboard" class="btn btn-primary">Dashboard</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/process-payroll" class="btn btn-success">Process Payroll</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/verify-payroll" class="btn btn-warning">Verify Payroll</a>
+    </div>
+    <div class="col-md-3 d-grid">
+      <a routerLink="/processor-notifications" class="btn btn-secondary">Notifications</a>
+    </div>
+  </div>
+
+  <!-- 🔙 Back to Home Button -->
+  <div class="row justify-content-center mt-4">
+    <div class="col-md-4 d-grid">
+      <a routerLink="/processor-home" class="btn btn-outline-dark">
+        <i class="bi bi-arrow-left-circle"></i> Back to Home
+      </a>
+    </div>
+  </div>
 </div>

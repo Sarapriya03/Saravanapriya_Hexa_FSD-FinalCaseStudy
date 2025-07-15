@@ -1,0 +1,1 @@
+ÅRkE:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\ServiceLayer.csproj¢net8.0ÚCSharp12

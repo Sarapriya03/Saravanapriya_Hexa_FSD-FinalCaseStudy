@@ -75,7 +75,6 @@ E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\Servi
 E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ServiceLayer.props
 E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ServiceLayer.props
 E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\staticwebassets.pack.json
-E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\ServiceL.3037F684.Up2Date
 E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\ServiceLayer.dll
 E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
@@ -83,3 +82,4 @@ E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\Servi
 E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\ServiceLayer.genruntimeconfig.cache
 E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
 E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\bin\Debug\net8.0\ServiceLayer.staticwebassets.runtime.json
+E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\ServiceLayer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -16,12 +16,13 @@ builder.Services.AddControllers();
 //  Enable CORS for all origins, methods, and headers
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
-    {
-        policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader();
-    });
+    options.AddPolicy("AllowAll",
+        builder => builder
+            .WithOrigins("http://localhost:4200") // Angular dev server origin
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials()
+    );
 });
 
 //  JWT Authentication
@@ -41,7 +42,8 @@ builder.Services.AddAuthentication(options =>
         ValidIssuer = builder.Configuration["Jwt:Issuer"],
         ValidAudience = builder.Configuration["Jwt:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
+        RoleClaimType = "role"
     };
 });
 
@@ -53,6 +55,7 @@ builder.Services.AddApiVersioning(options =>
     options.ReportApiVersions = true;
     options.ApiVersionReader = new UrlSegmentApiVersionReader(); //  /api/v1.0/controller
 });
+
 
 // Swagger with manual token entry
 builder.Services.AddSwaggerGen(options =>

@@ -1,0 +1,2555 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.13.0.0",
+        "fileVersion": "4.13.0-3.25227.3 (fe188fa9)",
+        "semanticVersion": "4.13.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/User.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/User.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Password' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/User.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/User.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Role' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/User.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/User.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Message' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Notification.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Notification.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Employee.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Employee.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Email' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Employee.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Employee.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Department' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Employee.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Employee.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Role' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Employee.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Employee.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Action' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/AuditLog.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/AuditLog.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_AuditTrail_cshtml.g.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 234,
+                  "endLine": 57,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_AuditTrail_cshtml.g.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 234,
+                  "endLine": 71,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_ComplianceReports_cshtml.g.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 234,
+                  "endLine": 57,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_ComplianceReports_cshtml.g.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 234,
+                  "endLine": 71,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Employees_cshtml.g.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 234,
+                  "endLine": 61,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Employees_cshtml.g.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 235,
+                  "endLine": 77,
+                  "endColumn": 237
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Users_cshtml.g.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 234,
+                  "endLine": 61,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Users_cshtml.g.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 235,
+                  "endLine": 77,
+                  "endColumn": 237
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Error_cshtml.g.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 67,
+                  "endLine": 24,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Dashboard_cshtml.g.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 234,
+                  "endLine": 57,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Dashboard_cshtml.g.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 234,
+                  "endLine": 71,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Notifications_cshtml.g.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 234,
+                  "endLine": 57,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Notifications_cshtml.g.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 234,
+                  "endLine": 71,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_PayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 234,
+                  "endLine": 61,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_PayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 235,
+                  "endLine": 77,
+                  "endColumn": 237
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 234,
+                  "endLine": 72,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 243,
+                  "endLine": 90,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 238,
+                  "endLine": 115,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 243,
+                  "endLine": 139,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 244,
+                  "endLine": 163,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 238,
+                  "endLine": 188,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 243,
+                  "endLine": 214,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 244,
+                  "endLine": 238,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 263,
+                  "startColumn": 238,
+                  "endLine": 263,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 287,
+                  "startColumn": 243,
+                  "endLine": 287,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 311,
+                  "startColumn": 240,
+                  "endLine": 311,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 234,
+                  "endLine": 71,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 243,
+                  "endLine": 89,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 238,
+                  "endLine": 114,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 243,
+                  "endLine": 138,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 244,
+                  "endLine": 162,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 238,
+                  "endLine": 187,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 243,
+                  "endLine": 211,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 244,
+                  "endLine": 235,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 260,
+                  "startColumn": 238,
+                  "endLine": 260,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 284,
+                  "startColumn": 243,
+                  "endLine": 284,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 308,
+                  "startColumn": 244,
+                  "endLine": 308,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 238,
+                  "endLine": 333,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 357,
+                  "startColumn": 243,
+                  "endLine": 357,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreatePayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 381,
+                  "startColumn": 240,
+                  "endLine": 381,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 234,
+                  "endLine": 78,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 244,
+                  "endLine": 107,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 238,
+                  "endLine": 132,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 243,
+                  "endLine": 159,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 244,
+                  "endLine": 183,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 238,
+                  "endLine": 208,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 243,
+                  "endLine": 235,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 259,
+                  "startColumn": 244,
+                  "endLine": 259,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 249,
+                  "endLine": 286,
+                  "endColumn": 251
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 305,
+                  "startColumn": 249,
+                  "endLine": 305,
+                  "endColumn": 251
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 321,
+                  "startColumn": 249,
+                  "endLine": 321,
+                  "endColumn": 251
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_LoginPage_cshtml.g.cs",
+                "region": {
+                  "startLine": 360,
+                  "startColumn": 243,
+                  "endLine": 360,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 234,
+                  "endLine": 72,
+                  "endColumn": 236
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 243,
+                  "endLine": 90,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 238,
+                  "endLine": 115,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 243,
+                  "endLine": 139,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 244,
+                  "endLine": 163,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 238,
+                  "endLine": 188,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 243,
+                  "endLine": 212,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 244,
+                  "endLine": 236,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 238,
+                  "endLine": 261,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 285,
+                  "startColumn": 243,
+                  "endLine": 285,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 309,
+                  "startColumn": 244,
+                  "endLine": 309,
+                  "endColumn": 246
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 238,
+                  "endLine": 334,
+                  "endColumn": 240
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 243,
+                  "endLine": 358,
+                  "endColumn": 245
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 382,
+                  "startColumn": 240,
+                  "endLine": 382,
+                  "endColumn": 242
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Admin_CreateEmployee.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateEmployee_cshtml.g.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 24,
+                  "endLine": 46,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Admin_Employees.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Employees_cshtml.g.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 24,
+                  "endLine": 40,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Admin_ComplianceReports.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_ComplianceReports_cshtml.g.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 24,
+                  "endLine": 37,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Admin_CreateUser.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_CreateUser_cshtml.g.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 24,
+                  "endLine": 46,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Admin_Dashboard.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Dashboard_cshtml.g.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 24,
+                  "endLine": 37,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Admin_AuditTrail.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_AuditTrail_cshtml.g.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 24,
+                  "endLine": 37,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Admin_Users.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Users_cshtml.g.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 24,
+                  "endLine": 40,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Admin_Notifications.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_Notifications_cshtml.g.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 24,
+                  "endLine": 37,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Admin_PayrollConfig.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/obj/Debug/net8.0/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Admin_PayrollConfig_cshtml.g.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 24,
+                  "endLine": 40,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Program.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 34,
+                  "endLine": 11,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/User.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 20,
+                  "endLine": 5,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1854",
+          "level": "note",
+          "message": "Prefer a 'TryGetValue' call over a Dictionary indexer access guarded by a 'ContainsKey' check to avoid double lookup",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 41,
+                  "endLine": 53,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 21,
+                  "endLine": 55,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6967",
+          "level": "warning",
+          "message": "ModelState.IsValid should be checked in controller actions.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 42,
+                  "endLine": 41,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6966",
+          "level": "warning",
+          "message": "Await RunAsync instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Program.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 1,
+                  "endLine": 43,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/Employee.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 20,
+                  "endLine": 5,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6967",
+          "level": "warning",
+          "message": "ModelState.IsValid should be checked in controller actions.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 42,
+                  "endLine": 140,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6967",
+          "level": "warning",
+          "message": "ModelState.IsValid should be checked in controller actions.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 42,
+                  "endLine": 94,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/PayrollConfig.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 20,
+                  "endLine": 5,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/PayrollConfig.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 20,
+                  "endLine": 6,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/PayrollConfig.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 24,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/PayrollConfig.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 24,
+                  "endLine": 8,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6964",
+          "level": "warning",
+          "message": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Models/PayrollConfig.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 24,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6967",
+          "level": "warning",
+          "message": "ModelState.IsValid should be checked in controller actions.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///E:/Hexaware/.NET_ANGULAR%20FSD/Saravanapriya_Hexa_FSD-FinalCaseStudy/Easypay/AppUI/Controllers/AdminController.cs",
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 42,
+                  "endLine": 117,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1854": {
+          "id": "CA1854",
+          "shortDescription": "Prefer the 'IDictionary.TryGetValue(TKey, out TValue)' method",
+          "fullDescription": "Prefer a 'TryGetValue' call over a Dictionary indexer access guarded by a 'ContainsKey' check. 'ContainsKey' and the indexer both would lookup the key under the hood, so using 'TryGetValue' removes the extra lookup.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1854",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0169": {
+          "id": "CS0169",
+          "shortDescription": "Field is never used",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0169)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "Async method lacks 'await' operators and will run synchronously",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1075": {
+          "id": "S1075",
+          "shortDescription": "URIs should not be hardcoded",
+          "fullDescription": "Hard-coding a URI makes it difficult to test a program for a variety of reasons:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6964": {
+          "id": "S6964",
+          "shortDescription": "Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.",
+          "fullDescription": "\"Under-posting\" refers to a situation where a client sends less data than expected to the server during an HTTP request, for example when the client omits some properties from the request body that the server expects to receive.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6964",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6966": {
+          "id": "S6966",
+          "shortDescription": "Awaitable method should be used",
+          "fullDescription": "In an async method, any blocking operations should be avoided.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6966",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6967": {
+          "id": "S6967",
+          "shortDescription": "ModelState.IsValid should be called in controller actions",
+          "fullDescription": "In the context of ASP.NET Core MVC web applications, both model binding and model validation are processes that take place prior to the execution of a controller action. It is imperative for the application to examine the ModelState.IsValid and respond accordingly.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6967",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

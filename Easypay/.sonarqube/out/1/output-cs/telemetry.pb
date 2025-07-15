@@ -1,0 +1,1 @@
+sR]E:\Hexaware\.NET_ANGULAR FSD\Saravanapriya_Hexa_FSD-FinalCaseStudy\Easypay\AppUI\AppUI.csproj¢net8.0òCSharp12

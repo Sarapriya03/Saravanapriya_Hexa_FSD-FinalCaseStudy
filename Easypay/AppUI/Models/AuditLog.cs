@@ -1,6 +1,6 @@
 ﻿namespace AppUI.Models
 {
-    public class AuditLog
+    public class AuditLog 
     {
         public int AuditLogId { get; set; }
         public int UserId { get; set; }
